@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     char *temp;
-    for(int i = argc; i > 1; i--){
+    for(int i = argc-1; i > 1; i--){
         for(int j = 1; j < i; j++){
             if(strcmp(argv[j], argv[j+1])>0){
                 temp = argv[j];

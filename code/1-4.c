@@ -21,9 +21,8 @@ char my_strcmp(const char *a, const char *b){
             if(a[i]==b[i]) continue;
             else return a[i]-b[i];
         }
+        return 0;
     }
-
-
 }
 
 
